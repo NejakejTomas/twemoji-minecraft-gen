@@ -1,0 +1,12 @@
+﻿{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/%name%.png",
+      "ascent": 7,
+      "chars": [
+        %chars%
+      ]
+    }
+  ]
+}
