@@ -59,7 +59,7 @@ namespace TwemojiMinecraftGen
 
             return url;
         }
-        private uint ToUtf16(uint codepoint)
+        public static uint ToUtf16(uint codepoint)
         {
             // https://stackoverflow.com/questions/6240055/manually-converting-unicode-codepoints-into-utf-8-and-utf-16
             if (codepoint < 0xD800) return codepoint;

@@ -25,6 +25,10 @@ namespace TwemojiMinecraftGen
                 }
             }
 
+#if DEBUG
+            sizes.Add(128);
+#endif
+
             EmotePacker packer = new();
 
             try
